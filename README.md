@@ -14,3 +14,5 @@ Goals for this project was to make sure that a user can:
 - Receive an error message when the newsletter sign up `form` is submitted if:
   - The `input` field is empty
   - The email address is not formatted correctly
+## Project
+https://ugniusnor.github.io/manage-landing-page-master/
