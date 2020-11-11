@@ -1,0 +1,59 @@
+figure {
+    background: hsl(13, 100%, 96%) !important;
+    height: 300px !important;
+    margin-top: 50px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 75px 20px !important;
+    padding: .7em;  
+     
+}
+figure .avatar {
+    width: 90px;
+    position: absolute;
+    top: 22px;
+ 
+}
+figure h3 {
+    margin-top: 36px;
+}
+figure .text {
+    padding: 20px;
+    font-size: 17px;
+    font-style: italic;
+    text-align: center;
+    line-height: 23px;
+}
+.name {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: .9em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: grey;
+}
+.glider-contain {
+    width: 85% !important;
+    margin-top: 12%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.glider-dot {
+    border:1px solid hsl(12, 88%, 59%)!important;
+    background: white;
+    transition: all 0.3s;
+}
+.glider-dot.active {
+    background-color: hsl(12, 88%, 59%)!important;;
+}
+.glider-dot:hover {
+    background-color: hsl(12, 88%, 59%)!important;;
+}
+.actions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
